@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="FloatingLabel.widget.FloatingLabel" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>FloatingLabel</name>
+    <description>a moving floating label for enhance input</description>
+
+    <icon />
+
+    <properties>
+        <property key="ValueToSet" type="attribute">
+            <caption>Value</caption>
+            <category>Appearance</category>
+            <description>The string that will be edited using the input box.</description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+        <property key="placeholderText" type="string" required="true" defaultValue="">
+            <caption>Placeholder Text</caption>
+            <category>Appearance</category>
+            <description>The string that will appear in the input box.</description>
+        </property>
+    </properties>
+</widget>
